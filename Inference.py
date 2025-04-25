@@ -6,7 +6,7 @@ from pathlib import Path
 import os
 
 # Specify the directory containing test images
-TEST_IMAGE_DIR = r"Dataset_Processed\images\test"  # Directory path
+TEST_IMAGE_DIR = r"Dataset\test"  # Directory path
 
 # Letterbox function to resize and pad image while maintaining aspect ratio
 def letterbox(img, new_shape=(416, 416), color=(114, 114, 114)):
